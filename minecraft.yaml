@@ -25,7 +25,7 @@ minecraftServer:
   # default game mode for players creative,adventure,survival or spectator
   gameMode: survival
   # message in the launcher
-  motd: "Welcome to Minecraft on Kubernetes"
+  motd: "Coming from the world's sketchiest home lab in the tri-state area"
   # player vs player enabled
   pvp: true
   # REQUIRED this means you get nodePort exposed on all nodes and will get
