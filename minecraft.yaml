@@ -19,14 +19,13 @@ minecraftServer:
   autoCurseForge:
     # CurseForge API key obtained from developer console
     apiKey:
-      key: "CHANGEME!"
-      existingSecret: ""
-      secretKey: cf-api-key
+      secretRef:
+        name: cf-api-key
     # Link to modpack in general or a specific file
     # NOTE: In case of specific file - do not point at server file
     pageUrl: ""
     # Unique id of modpack, can be used instead of url
-    slug: ""
+    slug: "custom"
     # Id used to specify which exact modpack file needs to be downloaded
     # NOTE: Do not use server file id
     fileId: ""
