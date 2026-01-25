@@ -87,7 +87,7 @@ persistence:
   annotations: {}
   dataDir:
     enabled: true
-    Size: 1Gi
+    Size: 4Gi
 
 # K8S resources to grant the pod. memory must be the same as java memory above
 # I've also found that limit should be a little higher.
