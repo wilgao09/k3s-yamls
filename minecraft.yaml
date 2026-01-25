@@ -13,7 +13,13 @@ minecraftServer:
   # ?????
   eula: true
   # may be SNAPSHOT or a specific version number
-  version: LATEST
+  version: 1.21.11
+  type: FORGE
+  curseForge:
+    enabled: true
+    projects:
+      - 416089
+  difficulty: normal
   # allowed players' names comma separated, leave blank to allow any players
   whitelist:
   # comma separated admin players' names
@@ -87,7 +93,7 @@ persistence:
   annotations: {}
   dataDir:
     enabled: true
-    Size: 1Gi
+    Size: 4Gi
 
 # K8S resources to grant the pod. memory must be the same as java memory above
 # I've also found that limit should be a little higher.
