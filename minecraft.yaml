@@ -56,7 +56,7 @@ minecraftServer:
     # required
     serviceType: NodePort
     password: "TODO - supply this as an override on the command line "
- extraPorts:
+  extraPorts:
     - name: simplyVoice
       containerPort: 24454
       protocol: UDP
