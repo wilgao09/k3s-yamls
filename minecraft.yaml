@@ -56,6 +56,35 @@ minecraftServer:
     # required
     serviceType: NodePort
     password: "TODO - supply this as an override on the command line "
+ extraPorts:
+    - name: simplyVoice
+      containerPort: 24454
+      protocol: UDP
+      service:
+        enabled: false
+        embedded: false
+        annotations: {}
+        type: NodePort
+        ## Set the external port if the rcon serviceType is NodePort
+        nodePort: 24454
+        loadBalancerIP: ""
+        loadBalancerSourceRanges: []
+        externalTrafficPolicy: Cluster
+        port: 24454
+    #   ingress:
+    #     ingressClassName: nginx
+    #     enabled: false
+    #     annotations:
+    # # Deprecated way for specifying the ingressClass. Kube.version < 1.18
+    # #       kubernetes.io/ingress.class: nginx
+    #       kubernetes.io/tls-acme: "true"
+    #     hosts:
+    #       - name: map.local
+    #         path: /
+    #     tls:
+    #       - secretName: map-tls
+    #         hosts:
+    #           - map.local
 
 # UNCOMMENT and supply an NFS mounted folder if you have backups of minecraft server
 # worlds that you would like to use as the starting point for the new server
