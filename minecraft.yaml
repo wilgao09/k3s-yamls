@@ -66,11 +66,11 @@ minecraftServer:
         annotations: {}
         type: NodePort
         ## Set the external port if the rcon serviceType is NodePort
-        nodePort: 30100
+        nodePort: 30101
         loadBalancerIP: ""
         loadBalancerSourceRanges: []
         externalTrafficPolicy: Cluster
-        # port: 30100
+        port: 30101
     #   ingress:
     #     ingressClassName: nginx
     #     enabled: false
