@@ -61,7 +61,7 @@ minecraftServer:
       containerPort: 24454
       protocol: UDP
       service:
-        enabled: false
+        enabled: true
         embedded: false
         annotations: {}
         type: NodePort
