@@ -70,7 +70,7 @@ minecraftServer:
         loadBalancerIP: ""
         loadBalancerSourceRanges: []
         externalTrafficPolicy: Cluster
-        port: 30100
+        # port: 30100
     #   ingress:
     #     ingressClassName: nginx
     #     enabled: false
