@@ -18,6 +18,7 @@ minecraftServer:
   modUrls: [
     "/data/mods/voicechat-forge-1.21.11-2.6.11.jar"
   ]
+  difficulty: medium
   # allowed players' names comma separated, leave blank to allow any players
   whitelist:
   # comma separated admin players' names
@@ -57,7 +58,7 @@ minecraftServer:
     serviceType: NodePort
     password: "TODO - supply this as an override on the command line "
   extraPorts:
-    - name: simply-voice
+    - name: simple-voice
       containerPort: 24454
       protocol: UDP
       service:
