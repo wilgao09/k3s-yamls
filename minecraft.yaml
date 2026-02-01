@@ -18,7 +18,7 @@ minecraftServer:
   modUrls: [
     "/data/mods/voicechat-forge-1.21.11-2.6.11.jar"
   ]
-  difficulty: medium
+  difficulty: normal
   # allowed players' names comma separated, leave blank to allow any players
   whitelist:
   # comma separated admin players' names
