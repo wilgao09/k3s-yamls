@@ -32,7 +32,7 @@ minecraftServer:
   # default game mode for players creative,adventure,survival or spectator
   gameMode: survival
   # message in the launcher
-  motd: "Coming from the world's sketchiest home lab in the tri-state area"
+  motd: "Coming from the world's sketchiest home lab in the tri-state area (now on 26.3!)"
   # player vs player enabled
   pvp: true
   # REQUIRED this means you get nodePort exposed on all nodes and will get
