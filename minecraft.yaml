@@ -13,10 +13,10 @@ minecraftServer:
   # ?????
   eula: true
   # may be SNAPSHOT or a specific version number
-  version: "1.21.11"
-  type: "FORGE"
+  version: "26.3"
+  type: "FABRIC"
   modUrls: [
-    "/data/mods/voicechat-forge-1.21.11-2.6.11.jar"
+    "/data/mods/voicechat-fabric-2.6.23+26.3.jar"
   ]
   difficulty: normal
   # allowed players' names comma separated, leave blank to allow any players
