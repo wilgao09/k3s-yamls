@@ -5,4 +5,4 @@ git fetch --all && git reset --hard main && git pull
 chmod +x redeploy_minecraft.sh
 
 ## redeploy
-helm upgrade my-first-mc -f minecraft.yaml minecraft-server-charts/minecraft
+helm upgrade minecraft -f minecraft.yaml minecraft-server-charts/minecraft
