@@ -47,7 +47,7 @@ minecraftServer:
   # I believe 25 is the client max so larger is wasted
   viewDistance: 10
   # memory to allocate to the jvm - if you change this also change the K8s resource request
-  memory: 6g
+  memory: 5g
 
   rcon:
     # enable rcon for remote control - set to false if not required
@@ -121,7 +121,7 @@ persistence:
   annotations: {}
   dataDir:
     enabled: true
-    Size: 4Gi
+    Size: 16Gi
 
 # K8S resources to grant the pod. memory must be the same as java memory above
 # I've also found that limit should be a little higher.
@@ -131,10 +131,10 @@ persistence:
 # at startup time
 resources:
   requests:
-    memory: 6Gi
+    memory: 5Gi
     cpu: 1
   limits:
-    memory: 6Gi
+    memory: 5Gi
     cpu: 6
 
 # UNCOMMENT to choose a single node to run on
