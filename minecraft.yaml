@@ -47,7 +47,7 @@ minecraftServer:
   # I believe 25 is the client max so larger is wasted
   viewDistance: 10
   # memory to allocate to the jvm - if you change this also change the K8s resource request
-  memory: 4.5g
+  memory: 5g
 
   rcon:
     # enable rcon for remote control - set to false if not required
@@ -134,7 +134,7 @@ resources:
     memory: 5Gi
     cpu: 1
   limits:
-    memory: 5.5Gi
+    memory: 5.75Gi
     cpu: 6
 
 # UNCOMMENT to choose a single node to run on
